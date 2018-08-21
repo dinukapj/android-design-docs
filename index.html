@@ -221,14 +221,14 @@ dateTimePicker.setDateTimeChangedListener(this);
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:panelHint="@string/add_an_alternative_date" />
-%}
+{% endhighlight %}
 <p class="heading">Code level</p>
 {% highlight java %}
 InteractivePanel ipAddDateField = holder.itemView.findViewById(R.id.ipAddDateField);
 ipAddDateField.setHint(mContext.getResources().getString(R.string.add_an_alternative_date));
-%}
+{% endhighlight %}
 <p class="heading">Set Listeners</p>
 Set a listener using:
 {% highlight java %}
 ipAddDateField.setPanelInteractedListener();
-%}
+{% endhighlight %}
